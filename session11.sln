@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\View
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppReport", "AppReport\AppReport.csproj", "{7CBB5811-68E1-4957-913B-F01065223F90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRegex", "Regex\AppRegex.csproj", "{3D76E355-385C-4C99-861B-DD4B1BD9E386}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{7CBB5811-68E1-4957-913B-F01065223F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CBB5811-68E1-4957-913B-F01065223F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CBB5811-68E1-4957-913B-F01065223F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D76E355-385C-4C99-861B-DD4B1BD9E386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D76E355-385C-4C99-861B-DD4B1BD9E386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D76E355-385C-4C99-861B-DD4B1BD9E386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D76E355-385C-4C99-861B-DD4B1BD9E386}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

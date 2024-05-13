@@ -304,10 +304,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>5/13/2024 8:04:49 PM</ReportChanged>
+  <ReportChanged>5/13/2024 8:12:43 PM</ReportChanged>
   <ReportCreated>5/13/2024 7:04:59 PM</ReportCreated>
   <ReportFile>C:\ws\cs\adv-csharp140211\session11\AppReport\ProductReport.mrt</ReportFile>
-  <ReportGuid>6561516816f849ae9e5d0774f28e1818</ReportGuid>
+  <ReportGuid>fb2e7fe7669f4f4a875d773f6b8ed0f3</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
