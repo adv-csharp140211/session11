@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.10.3" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Microsoft.CodeAnalysis" Version="4.4.0" />      
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Stimulsoft.Base">
+      <HintPath>D:\Programming-tools\Reports\Stimulsoft\Stimulsoft Reports 2023.1.1\Crack\Libs\Reports.Net\.NETCoreApp3.1\Stimulsoft.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls">
+      <HintPath>D:\Programming-tools\Reports\Stimulsoft\Stimulsoft Reports 2023.1.1\Stimulsoft-Ultimate-2023.1.1_Downloadly.ir\Reports.NET\.NETCoreApp3.1\Stimulsoft.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls.Win">
+      <HintPath>D:\Programming-tools\Reports\Stimulsoft\Stimulsoft Reports 2023.1.1\Stimulsoft-Ultimate-2023.1.1_Downloadly.ir\Reports.NET\.NETCoreApp3.1\Stimulsoft.Controls.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Data">
+      <HintPath>D:\Programming-tools\Reports\Stimulsoft\Stimulsoft Reports 2023.1.1\Stimulsoft-Ultimate-2023.1.1_Downloadly.ir\Reports.NET\.NETCoreApp3.1\Stimulsoft.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report">
+      <HintPath>D:\Programming-tools\Reports\Stimulsoft\Stimulsoft Reports 2023.1.1\Crack\Libs\Reports.Net\.NETCoreApp3.1\Stimulsoft.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Win">
+      <HintPath>D:\Programming-tools\Reports\Stimulsoft\Stimulsoft Reports 2023.1.1\Crack\Libs\Reports.Net\.NETCoreApp3.1\Stimulsoft.Report.Win.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ProductReport.mrt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

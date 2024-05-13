@@ -15,7 +15,9 @@
 	Modular
 		N-Tire
 
+	Domain Driven Design - DDD
 
+		
 
 
 Models
@@ -26,3 +28,8 @@ Models
 			ProductViewModel - ProductVM 
 		UI -> BL
 			ProductInput
+
+
+Reporting
+	Creystal Report ❌
+	Stimulsoft
