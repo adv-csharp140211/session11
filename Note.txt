@@ -1,0 +1,16 @@
+﻿Architecture 
+	Monolithic - پکپارچه
+		N-Layer (3)
+
+		Solution
+			Project
+				Data Access Layer - DAL		- DLL
+				Business Layer - BL			- DLL
+				Presentation Layer - UI
+					UI.Win
+					UI.Web
+					UI.Api
+
+
+	Modular
+		N-Tire
