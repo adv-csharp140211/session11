@@ -39,3 +39,15 @@ Reporting
 Regular Expression - Regex - عبارات باقاعده
 
 
+
+methodology software development
+
+	Waterfall
+	Rational Unified Process - RUP
+	
+	Agile
+		XP
+		Scrum
+			Project Owner
+			Scrum Master
+			..
