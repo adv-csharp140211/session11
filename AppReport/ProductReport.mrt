@@ -7,7 +7,7 @@
         <BusinessObjects isList="true" count="0" />
         <Category>ProductBO</Category>
         <Columns isList="true" count="4">
-          <value>id,System.Int32</value>
+          <value>ORIGINAL,Id,Id,Id,System.Int32,_x0033_5c9bb00b0454fc7ae9a15d5e5ec2c75</value>
           <value>Name,System.String</value>
           <value>Description,System.String</value>
           <value>Price,System.Int32</value>
@@ -150,8 +150,9 @@
               <Page isRef="3" />
               <Parent isRef="7" />
               <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
-              <Text>{ProductBO.id}</Text>
+              <Text>{ProductBO.Id}</Text>
               <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </TableProductBO_Cell5>
             <TableProductBO_Cell6 Ref="13" type="TableCell" isKey="true">
@@ -303,10 +304,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>5/13/2024 7:50:29 PM</ReportChanged>
+  <ReportChanged>5/13/2024 8:04:49 PM</ReportChanged>
   <ReportCreated>5/13/2024 7:04:59 PM</ReportCreated>
   <ReportFile>C:\ws\cs\adv-csharp140211\session11\AppReport\ProductReport.mrt</ReportFile>
-  <ReportGuid>ed9aa92d69f744cb95ff1ba0cd13d7b5</ReportGuid>
+  <ReportGuid>6561516816f849ae9e5d0774f28e1818</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
@@ -337,11 +338,11 @@ namespace Reports
   <Styles isList="true" count="1">
     <Tableforosh_MahsolEvening Ref="20" type="Stimulsoft.Report.StiTableStyle" isKey="true">
       <AlternatingDataColor>230, 230, 230</AlternatingDataColor>
-      <AlternatingDataForeground>0, 0, 0</AlternatingDataForeground>
+      <AlternatingDataForeground>Black</AlternatingDataForeground>
       <BackColor>White</BackColor>
       <Conditions isList="true" count="0" />
-      <DataColor>128, 128, 128</DataColor>
-      <DataForeground>0, 0, 0</DataForeground>
+      <DataColor>Gray</DataColor>
+      <DataForeground>Black</DataForeground>
       <FooterColor>10, 10, 10</FooterColor>
       <FooterForeground>White</FooterForeground>
       <GridColor>Gainsboro</GridColor>
