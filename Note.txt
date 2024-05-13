@@ -14,3 +14,15 @@
 
 	Modular
 		N-Tire
+
+
+
+
+Models
+	Domain Model - POCO - Entity
+		Class C# map be table database
+	View Model
+		BL -> UI
+			ProductViewModel - ProductVM 
+		UI -> BL
+			ProductInput
